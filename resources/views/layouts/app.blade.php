@@ -49,9 +49,10 @@
         <header>
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container-fluid">
-                <img src="{{asset('images/logo.png')}}" width="32" height="32" alt="logo">
+                <img src="{{asset('images/logo.png')}}" width="100" height="100" alt="logo">
+                &nbsp; &nbsp; &nbsp; &nbsp;
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ __('Consultations list') }}
+                    {{ __('Student Consultation Board') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
